@@ -1,0 +1,48 @@
+---
+layout: compress
+---
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en" > <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en" >        <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en" >               <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="none" />
+  <meta name="author" content="{{ site.name }}">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="google-site-verification" content="UBUmBSBCu83JeIsA1zRpq7S-Ib0iMjWpbRmokHnFsPw">
+  <meta content="en" name="language">
+  <meta http-equiv="content-language" content="en">
+  <meta http-equiv="content-language" content="en-US">
+  <link rel="alternate" href="{{ site.url }}" hreflang="x-default">
+  <link rel="alternate" href="{{ site.url }}" hreflang="en">
+  <meta name="MobileOptimized" content="width" />
+  <meta name="HandheldFriendly" content="true" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge, chrome=1" />
+  <meta http-equiv="ImageToolbar" content="false" />
+  <link rel="shortcut icon" href="{{ site.logo }}" type="image/png">
+  <link rel="icon" sizes="196x196" type="image/png" href="{{ site.logo }}">
+  <link rel="apple-touch-icon-precomposed" sizes="180x180" href="{{ site.logo }}">
+  {% include seo.html %}
+  {% include css.html %}
+
+
+</head>
+
+<body>
+
+  {% include navigation.html %}
+  <main class="overflow-hidden">
+    {{ content }}
+    {% include footer.html %}
+    {% include scripts.html %}
+    {% include google-analytics.html %}
+  </main>
+</body>
+
+</html>

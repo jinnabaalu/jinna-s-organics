@@ -1,0 +1,45 @@
+name: "Raju Prakruthi Vyavasaaya Kshethram"
+title: "Raju Prakruthi Vyavasaaya Kshethram"
+description: "Raju Prakruthi Vyavasaaya Kshethram | Heirloom Seeds | Desi Seeds | SPNF | Subash Palekar Natural Farming | ZBNF | Jinna Balu | Jinna Raju | Jinna Krishna "
+meta_description: "Raju Prakruthi Vyavasaaya Kshethram | Heirloom Seeds | Desi Seeds | SPNF | Subash Palekar Natural Farming | ZBNF | Jinna Balu | Jinna Raju | Jinna Krishna "
+logo: 'assets/img/farm_logo.png'
+favicon: 'assets/img/farm_logo.png'
+paginate: 12
+baseurl: ''
+url: ''
+email: 'metuku@gmail.com'
+locale: en_US
+seo:
+  keywords: 'Raju Prakruthi Vyavasaaya Kshethram'
+  site_name: Raju Prakruthi Vyavasaaya Kshethram
+og:
+  type: "website"
+
+plugins: 
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-archives
+  - jekyll-sitemap
+
+sass:
+  style: compressed
+        
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
+    
+markdown: kramdown
+highlighter: rouge
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

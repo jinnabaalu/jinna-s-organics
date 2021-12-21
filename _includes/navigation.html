@@ -1,0 +1,50 @@
+<nav class="navbar navbar-default navbar-trans navbar-expand-lg fixed-top">
+  <div class="container">
+    <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarDefault"
+      aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <a class="navbar-brand text-brand" href="/">Raju <span class="color-b"> Kshethram</span></a><small>(Beta)</small>
+    <div class="navbar-collapse collapse justify-content-lg-end" id="navbarDefault">
+      <ul class="navbar-nav">
+
+        <li class="nav-item">
+          <a {% if page.url == '/' or page.url == '/index.html' %} class="nav-link active" {% else %} class="nav-link"
+            {% endif %} href="/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a {% if page.url == '/about-us' or page.url == '/about-us.html' %} class="nav-link active" {% else %}
+            class="nav-link" {% endif %} href="/about-us">About</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a {% if page.url == '/rice-seeds' or
+          page.url == '/chilli-seeds' or
+          page.url == '/other-seeds' or
+          page.url == '/agro-tools' or 
+          page.url == '/rice-seeds.html' or
+          page.url == '/chilli-seeds.html' or
+          page.url == '/other-seeds.html' or
+          page.url == '/agro-tools.html' %} class="nav-link dropdown-toggle active" {% else %}
+            class="nav-link dropdown-toggle" {% endif %} href="#" id="navbarDropdown" role="button"
+            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Heirlooms</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item " href="/rice-seeds">Rice Seeds</a>
+            <a class="dropdown-item " href="/chilli-seeds">Chilli Seeds</a>
+            <a class="dropdown-item " href="/other-seeds">Other Seeds</a>
+            <a class="dropdown-item " href="/agro-tools">Agro Tools</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a {% if page.url == '/contact-us' or page.url == '/contact-us.html' %} class="nav-link active" {% else %}
+            class="nav-link" {% endif %} href="/contact-us">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a {% if page.url == '/pico' or page.url == '/pico.html' %} class="nav-link active" {% else %}
+            class="nav-link" {% endif %} href="/pico">pico</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
