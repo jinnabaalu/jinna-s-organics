@@ -15,8 +15,6 @@ lastmod: 2021-03-13T12:49:30-05:00
 
 
 <main id="main">
-
-    <!-- ======= Intro Single ======= -->
     <section class="intro-single">
         <div class="container">
             <div class="row">
@@ -40,13 +38,11 @@ lastmod: 2021-03-13T12:49:30-05:00
                 </div>
             </div>
         </div>
-    </section><!-- End Intro Single-->
-
-    <!-- ======= Property Grid ======= -->
+    </section>
     <section class="property-grid grid">
         <div class="container">
             <div class="row">
-                <div class="col-sm-12">
+                <!-- <div class="col-sm-12">
                     <div class="grid-option">
                         <form>
                             <select class="custom-select">
@@ -57,7 +53,7 @@ lastmod: 2021-03-13T12:49:30-05:00
                             </select>
                         </form>
                     </div>
-                </div>
+                </div> -->
                 {% for member in site.data.rice %}
                 <div class="col-md-4">
                     <div class="card-box-a card-shadow">
@@ -68,36 +64,31 @@ lastmod: 2021-03-13T12:49:30-05:00
                             <div class="card-overlay-a-content">
                                 <div class="card-header-a">
                                     <h2 class="card-title-a">
-                                        <a href="#">{{ member.name }}</a>
+                                        <a href="{{ member.route }}"> {{ member.name }}</a>
                                     </h2>
                                 </div>
                                 <div class="card-body-a">
                                     <div class="price-box d-flex">
-                                        <span class="price-a">rent | $ 12.000</span>
+                                        <span class="price-a">{{ member.grain_color }} | {{ member.grain_size }}</span>
                                     </div>
-                                    <a href="property-single.html" class="link-a">Click here to view
+                                    <a href="{{ member.route }}" class="link-a">Click here to view
                                         <span class="bi bi-chevron-right"></span>
                                     </a>
                                 </div>
                                 <div class="card-footer-a">
                                     <ul class="card-info d-flex justify-content-around">
                                         <li>
-                                            <h4 class="card-info-title">Area</h4>
-                                            <span>340m
-                                                <sup>2</sup>
+                                            <h4 class="card-info-title">Height</h4>
+                                            <span>{{ member.plant_height }} ft.
                                             </span>
                                         </li>
                                         <li>
-                                            <h4 class="card-info-title">Beds</h4>
-                                            <span>2</span>
+                                            <h4 class="card-info-title">Duration</h4>
+                                            <span>{{ member.crop_duration }} Days</span>
                                         </li>
                                         <li>
-                                            <h4 class="card-info-title">Baths</h4>
-                                            <span>4</span>
-                                        </li>
-                                        <li>
-                                            <h4 class="card-info-title">Garages</h4>
-                                            <span>1</span>
+                                            <h4 class="card-info-title">Origin</h4>
+                                            <span>{{ member.origin }}</span>
                                         </li>
                                     </ul>
                                 </div>
@@ -135,6 +126,5 @@ lastmod: 2021-03-13T12:49:30-05:00
                 </div>
             </div>
         </div>
-    </section><!-- End Property Grid Single-->
-
-</main><!-- End #main -->
+    </section>
+</main>
