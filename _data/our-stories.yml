@@ -9,9 +9,24 @@ articles:
     image_urls: ['assets/img/medium/first.jpeg']
     date: 29th Oct 2019
     media: Sakshi
+  - article_title: Recognized as an SPNF Farmer by Back2Nature, Nov, 2020 magazine
+    page_link: /natural-farmers-list-in-back2nature
+    image_urls: ['assets/img/medium/3_1.jpeg' ]
+    date: Nov 2020
+    media: Back2Nature
   - article_title: Farmer's Day Celebration - 2022
     page_link: /farmers-day-2020
     image_urls: ['assets/img/medium/4_1.jpeg','assets/img/medium/4_2.jpeg', 'assets/img/medium/4_3.jpeg', 'assets/img/medium/4_4.jpeg', 'assets/img/medium/4_5.jpeg' ]
     date: 23rd Dec, 2020
     media: Gramabharathi 
-    
+  - article_title: Natural Farmer recognition, who can double their income in farming by SPNF method in NITI Aayog.
+    page_link: /niti-aayog-2020
+    image_urls: ['assets/img/medium/niti-aayog.png' ]
+    date: Sep 30, 2020
+    media: NITI Aayog
+  - article_title: Building a self-sustained model for our family with the help of SPNF
+    page_link: /spnf-success-story-in-back2nature
+    image_urls: ['assets/img/medium/5_1.jpeg','assets/img/medium/1_2.jpeg', 'assets/img/medium/1_3.jpeg', 'assets/img/medium/1_4.jpeg' ]
+    date: Feb 2021
+    media: Back2Nature
+        

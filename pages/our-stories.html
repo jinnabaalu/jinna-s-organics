@@ -44,31 +44,31 @@ lastmod: 2021-03-13T12:49:30-05:00
         <div class="container">
             <div class="row">
                 {% for article in site.data.our-stories.articles %}
-                <div class="col-md-4 col-sm-12">
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                    <div class="card-columns">
+                        <div class="card-box-b card-shadow news-box">
+                            <div class="img-box-b">
+                                <a href="{{article.page_link}}">
+                                    <img src="{{article.image_urls[0]}}" alt="{{article.article_title}}"
+                                        class="img-b img-fluid">
+                                </a>
+                            </div>
+                            <div class="card-overlay">
+                                <div class="card-header-b">
+                                    <div class="card-category-b">
+                                        <a href="{{article.page_link}}" class="category-b">{{article.media}}</a>
+                                    </div>
+                                    <div class="card-title-b">
+                                        <h2 class="title-2">
+                                            <a href="{{article.page_link}}">
+                                                {{article.article_title}}
+                                            </a>
+                                        </h2>
 
-                    <div class="card-box-b card-shadow news-box">
-                        <div class="img-box-b">
-                            <a href="{{article.page_link}}">
-                                <img src="{{article.image_urls[0]}}" alt="{{article.article_title}}"
-                                    class="img-b img-fluid">
-                            </a>
-                        </div>
-                        <div class="card-overlay">
-                            <div class="card-header-b">
-                                <div class="card-category-b">
-                                    <a href="{{article.page_link}}" class="category-b">Shubash
-                                        Palekar Natural
-                                        Farming</a>
-                                </div>
-                                <div class="card-title-b">
-                                    <h2 class="title-2">
-                                        <a href="{{article.page_link}}">{{article.article_title}}
-                                    </h2>
-                                    <br>{{article.media}}</a>
-
-                                </div>
-                                <div class="card-date">
-                                    <span class="date-b">{{article.date}}</span>
+                                    </div>
+                                    <div class="card-date">
+                                        <span class="date-b">{{article.date}}</span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
