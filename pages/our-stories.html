@@ -43,33 +43,37 @@ lastmod: 2021-03-13T12:49:30-05:00
     <section class="agents-grid grid">
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
+                {% for article in site.data.our-stories.articles %}
+                <div class="col-md-6 col-sm-12">
+
                     <div class="card-box-b card-shadow news-box">
-                        <a target="_blank" href="/natural-farming-is-life">
-                            <div class="img-box-b">
-                                <img src="assets/img/medium/first.jpeg" alt="" class="img-b img-fluid">
-                            </div>
-                            <div class="card-overlay">
-                                <div class="card-header-b">
-                                    <div class="card-category-b">
-                                        <a target="_blank" href="/natural-farming-is-life" class="category-b">Shubash
-                                            Palekar Natural
-                                            Farming</a>
-                                    </div>
-                                    <div class="card-title-b">
-                                        <h2 class="title-2">
-                                            <a target="_blank" href="/natural-farming-is-life">Natural Farming is Life
-                                                <br>Sakshi</a>
-                                        </h2>
-                                    </div>
-                                    <div class="card-date">
-                                        <span class="date-b">29th Oct. 2019</span>
-                                    </div>
+                        <div class="img-box-b">
+                            <a href="{{article.page_link}}">
+                                <img src="{{article.image_urls[0]}}" alt="{{article.article_title}}"
+                                    class="img-b img-fluid">
+                            </a>
+                        </div>
+                        <div class="card-overlay">
+                            <div class="card-header-b">
+                                <div class="card-category-b">
+                                    <a href="{{article.page_link}}" class="category-b">Shubash
+                                        Palekar Natural
+                                        Farming</a>
+                                </div>
+                                <div class="card-title-b">
+                                    <h2 class="title-2">
+                                        <a href="{{article.page_link}}">{{article.article_title}}
+                                            <br>{{article.media}}</a>
+                                    </h2>
+                                </div>
+                                <div class="card-date">
+                                    <span class="date-b">{{article.date}}</span>
                                 </div>
                             </div>
-                        </a>
+                        </div>
                     </div>
                 </div>
+                {% endfor %}
                 <div class="col-md-4">
                     <div class="card-box-d">
                         <div class="card-img-d">
