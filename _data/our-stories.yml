@@ -4,11 +4,14 @@ articles:
     image_urls: ['assets/img/medium/1_1.jpeg','assets/img/medium/1_2.jpeg', 'assets/img/medium/1_3.jpeg', 'assets/img/medium/1_4.jpeg' ]
     date: Sep 2018
     media: Raithu Nestham 
-    page_description: Raithu Nestham Venkateshwar Rao Gaaru visited our farm, which helped us more to introduce ourself to the other districts and two telugu states.
   - article_title: Natural Farming is Life
     page_link: /natural-farming-is-life
     image_urls: ['assets/img/medium/first.jpeg']
     date: 29th Oct 2019
     media: Sakshi
-    page_description: Sakshi Main Edition Article has come on our natural farming practice, Many calls from many people. This gave lot of support to sell all the rice.
+  - article_title: Farmer's Day Celebration - 2022
+    page_link: /farmers-day-2020
+    image_urls: ['assets/img/medium/4_1.jpeg','assets/img/medium/4_2.jpeg', 'assets/img/medium/4_3.jpeg', 'assets/img/medium/4_4.jpeg', 'assets/img/medium/4_5.jpeg' ]
+    date: 23rd Dec, 2020
+    media: Gramabharathi 
     

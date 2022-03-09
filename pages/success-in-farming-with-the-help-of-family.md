@@ -12,7 +12,6 @@ page_link: /success-in-farming-with-the-help-of-family
 image_urls: ['assets/img/medium/1_1.jpeg','assets/img/medium/1_2.jpeg', 'assets/img/medium/1_3.jpeg', 'assets/img/medium/1_4.jpeg' ]
 date: Sep 2018
 media: Raithu Nestham 
-page_description: Raithu Nestham Venkateshwar Rao Gaaru visited our farm, which helped us more to introduce ourself to the other districts and two telugu states.
 sitemap:
     priority: 0.7
     changefreq: "monthly"
