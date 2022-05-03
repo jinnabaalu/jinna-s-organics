@@ -34,6 +34,23 @@ jekyll-archives:
     
 markdown: kramdown
 highlighter: rouge
+google-tag-manager-id: GTM-MTFQ8TF
+
+social:
+  name: Jinna Balu
+  links:
+    - https://twitter.com/FarmMethuku
+    - https://www.facebook.com/methuku.farm/
+    - https://www.instagram.com/methuku.farm/
+    - https://farm.methuku.com/
+## Verify ownership with several services at once using the following format
+webmaster_verifications:
+  google: XassWE0f9U0SuZSNHldIvE0dXEFQrezQjgaesx5HWlw
+  bing: 1E642F36EC0479DC69135F989CDC274A
+  yandex: 43039f2f4b41e2c3
+  baidu: 1234
+  facebook: 1234
+  ahrefs: 51bddb95e8fc130687b6ef65736ca7afb4c52168083b13a5e11eb5f1f2a536d7
 
 exclude:
   - Gemfile
