@@ -6,7 +6,7 @@ logo: 'assets/img/farm_logo.png'
 favicon: 'assets/img/farm_logo.png'
 paginate: 12
 baseurl: ''
-url: ''
+url: 'https://farm.methuku.com/'
 email: 'metuku@gmail.com'
 locale: en_US
 seo:
@@ -21,7 +21,6 @@ plugins:
   - jekyll-seo-tag
   - jekyll-archives
   - jekyll-sitemap
-
 sass:
   style: compressed
         
@@ -50,7 +49,7 @@ webmaster_verifications:
   yandex: 1f139a4469e48085
   baidu: 1234
   facebook: 1234
-  ahrefs: 51bddb95e8fc130687b6ef65736ca7afb4c52168083b13a5e11eb5f1f2a536d7
+  ahrefs: 638a1115334a2207dd8360d0e9fc1b920bb9ebfafafc3cea0c2eb508676a929f
 
 exclude:
   - Gemfile
