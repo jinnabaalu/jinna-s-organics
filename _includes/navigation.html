@@ -19,6 +19,15 @@
             class="nav-link" {% endif %} href="/about-us">About</a>
         </li>
         <li class="nav-item dropdown">
+          <a {% if page.url == '/navara' or
+          page.url == '/agro-tools.html' %} class="nav-link dropdown-toggle active" {% else %}
+            class="nav-link dropdown-toggle" {% endif %} href="#" id="navbarDropdown" role="button"
+            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Rice</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item " href="/navara">Navara Rice</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
           <a {% if page.url == '/rice-seeds' or
           page.url == '/chilli-seeds' or
           page.url == '/other-seeds' or
