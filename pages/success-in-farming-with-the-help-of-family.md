@@ -5,7 +5,7 @@ description: Raithu Nestham Venkateshwar Rao Gaaru visited our farm, which helpe
 permalink: /success-in-farming-with-the-help-of-family
 image: assets/img/logo.jpg
 pageImage: assets/img/medium/1_1.jpeg
-canonical_url: "https://farm.metuku.com/success-in-farming-with-the-help-of-family"
+canonical_url: "https://farm.methuku.com/success-in-farming-with-the-help-of-family"
 date: 2021-03-13T10:15:00Z
 article_title: Success in farming with the help of family
 page_link: /success-in-farming-with-the-help-of-family
