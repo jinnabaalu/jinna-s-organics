@@ -37,5 +37,8 @@ Disallow:
 User-agent: *
 Disallow: 
 
-Disallow: /cgi-bin/
+Disallow: assets/vendor
+Disallow: forms/
+Disallow: assets/js
+
 Sitemap: https://farm.methuku.com/sitemap.xml
